@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Linkpage</title>
+</head>
+<body>
+    <div>
+         <a href="{{ url_for('static', filename='upload/pic1.jpg') }}">picture1</a>
+         <a href="{{ url_for('uploaded_file', filename='pic2.jpg') }}">picture2</a>
+         <a href="{{ url_for('uploaded_file', filename='pic3.jpg') }}">picture3</a>
+         <a href="{{ url_for('uploaded_file', filename='pic4.jpg') }}">picture4</a>
+     </div>
+</body>
+</html>
