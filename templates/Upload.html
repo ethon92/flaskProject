@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload</title>
+</head>
+<body>
+     <h1>Upload new Image</h1>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form><br>
+    <div>
+         <a href="{{ url_for('link_page') }}">See upload image link page</a>
+     </div>
+</body>
+</html>
